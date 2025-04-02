@@ -7,6 +7,7 @@ XPath axes define the **relationship between nodes** in the document. They help 
 **Example:** Using an XPath Axis
 
 **1. JavaScript (XPath Axis Example)**
+
 .. code-block:: javascript
 
     var xmlDoc = document.getElementById("myXML");
