@@ -5,7 +5,7 @@ XSD Data Types
    :maxdepth: 2
 
    XSD_String
-   XSD_Date\Time
+   XSD_Date_Time
    XSD_Numeric
    XSD_Misc
    XSD_Reference
