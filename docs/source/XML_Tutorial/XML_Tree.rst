@@ -7,6 +7,25 @@ An XML tree structure is a hierarchical representation of XML elements, where ea
 - Child elements are nested inside parent elements.
 - The tree structure allows easy navigation and manipulation of XML data.
 
+**The XML Tree Structure**
+
+.. code-block:: html
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Display Image</title>
+   </head>
+   <body>
+       <h1>Displaying Image from URL</h1>
+       <img src="https://www.w3schools.com/xml/nodetree.gif" alt="Node Tree Image">
+   </body>
+   </html>
+
+   
+
 Example of XML tree structure:
 
 .. code-block:: xml
