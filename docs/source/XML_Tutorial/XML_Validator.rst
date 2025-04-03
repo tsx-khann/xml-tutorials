@@ -1,35 +1,30 @@
 XML Validator
 =============
-An **XML Validator** is a tool or service that checks whether an XML document is well-formed and conforms to the defined rules of the XML specification or a specific schema (such as DTD or XML Schema). It helps ensure that XML data can be parsed and interpreted correctly by applications and systems that use it.
+An **XML Validator** checks if an XML document is well-formed and conforms to defined rules (DTD or XML Schema). It ensures XML data is parsed and interpreted correctly by applications.
 
 Key Roles of an XML Validator:
 ---------------------------------
-1. **Well-formed Check:** Ensures that the XML document is syntactically correct according to the XML rules. This includes proper tag closure, case sensitivity, and correct nesting of elements.
-2. **Validation Against DTD or Schema:** In addition to being well-formed, an XML document can also be validated against a **Document Type Definition (DTD)** or **XML Schema Definition (XSD)** to ensure that it adheres to the structure and constraints specified by the DTD or Schema. This ensures that the document contains the right elements, attributes, and data types in the correct order.
-3. **Error Detection:** It helps in identifying errors such as missing tags, incorrectly nested tags, undeclared elements or attributes, mismatched data types, and other structural problems.
-4. **Compatibility Check:** Validates the document's compatibility with external systems and data structures to ensure it can be used effectively in data exchange or storage.
+1. **Well-formed Check:** Ensures XML is syntactically correct (proper tag closure, case sensitivity, correct nesting).
+2. **Validation Against DTD or Schema:** Checks if XML matches a specific structure defined by DTD/XSD (correct elements, attributes, and data types).
+3. **Error Detection:** Identifies errors like missing tags, incorrect nesting, undeclared elements, and mismatched data types.
+4. **Compatibility Check:** Validates XML's compatibility with external systems for effective data exchange.
 
 Why Use an XML Validator?
 ---------------------------
-- **Data Integrity:** Ensures the data is accurate and structured correctly, making it easy to process and consume by different systems.
-- **Error Prevention:** Helps detect errors early in the development or data transmission process, reducing the chances of data corruption or failure in downstream systems.
-- **Standard Compliance:** Ensures compliance with specific standards (e.g., XSD, DTD) for compatibility with other software, web services, or databases.
+- **Data Integrity:** Ensures accurate, structured data for processing by various systems.
+- **Error Prevention:** Detects errors early, preventing data corruption or failure in downstream systems.
+- **Standard Compliance:** Ensures compliance with standards (XSD, DTD) for compatibility with software, web services, or databases.
 
 How XML Validation Works:
 ---------------------------
-1. **Well-formedness Check:** First, the validator checks if the XML follows basic syntax rules, such as:
-   - Every opening tag has a corresponding closing tag.
-   - Tags are properly nested.
-   - Reserved characters (like `<`, `>`, `&`, etc.) are escaped correctly.
-   
-2. **DTD or Schema Validation:** After ensuring the XML is well-formed, the validator can then check if the XML document matches a specific structure as defined by a DTD or Schema. This process involves:
-   - Ensuring all required elements are present.
-   - Verifying elements contain the correct attributes.
-   - Checking that the data types of elements and attributes are valid (e.g., a date should be in a valid date format).
+1. **Well-formedness Check:** Verifies basic syntax rules, like matching tags and correct escaping of reserved characters.
+2. **DTD or Schema Validation:** Ensures the XML matches the structure defined by a DTD or Schema (correct elements, attributes, data types).
 
-Example of an Invalid XML (Well-formedness Error):
+Example of Invalid XML (Well-formedness Error):
 ---------------------------------------------------
-```xml
+
+...codeblock: xml
+
 <person>
     <name>John Doe</name>
     <age>30</age>
