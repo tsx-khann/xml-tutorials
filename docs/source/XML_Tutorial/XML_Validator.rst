@@ -21,13 +21,14 @@ How XML Validation Works:
 2. **DTD or Schema Validation:** Ensures the XML matches the structure defined by a DTD or Schema (correct elements, attributes, data types).
 
 Example of Invalid XML (Well-formedness Error):
----------------------------------------------------
 
-...codeblock: xml
+.. code-block:: xml
 
-<person>
-    <name>John Doe</name>
-    <age>30</age>
-    <!-- Missing closing tag for 'address' -->
-    <address>123 Main St
-</person>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <note>
+        <to>Tove</to>
+        <from>Jani</from>
+        <heading>Reminder</heading>
+        <body>Don't forget me this weekend!
+        </body>
+    </note>
