@@ -23,13 +23,13 @@ a:hover {
 
 /* Force menu links in the vertical navigation to be a softer white */
 .wy-menu-vertical a {
-    color: #dcdcdc !important;
+    color: #dcdcdc;
 }
 
 /* Change background color of vertical navigation links on hover */
 .wy-menu-vertical a:hover {
     background-color: #34495e; /* Slightly lighter blue-gray */
-    color: #ffffff !important;
+    color: #ffffff;
 }
 
 /* Style the top navigation bar */
