@@ -1,71 +1,54 @@
-/* General body styling */
+/* Set the background color and text color for the whole page */
 body {
-    background-color: #f4f4f9; /* Light gray background for a softer look */
-    color: #333; /* Dark gray text for better readability */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    background-color: #f5f5f5; /* Light gray for a softer contrast */
+    color: #222; /* Darker text for better readability */
+    font-family: Verdana, sans-serif;
 }
 
-/* Styling for all links */
+/* Style links: Default blue, turns a softer green on hover */
 a {
-    color: #1a73e8; /* Google blue for a modern touch */
+    color: #0077cc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #d93025; /* Red on hover for contrast */
+    color: #005fa3;
     text-decoration: underline;
 }
 
-/* Sidebar navigation */
+/* Style the side navigation search bar and side navigation panel */
 .wy-side-nav-search, .wy-nav-side {
-    background-color: #2c3e50; /* Dark blue-gray for a sleek look */
+    background-color: #2c3e50; /* Dark blue-gray for a modern look */
 }
 
+/* Force menu links in the vertical navigation to be a softer white */
 .wy-menu-vertical a {
-    color: #ecf0f1 !important; /* Light gray text */
+    color: #dcdcdc !important;
 }
 
+/* Change background color of vertical navigation links on hover */
 .wy-menu-vertical a:hover {
     background-color: #34495e; /* Slightly lighter blue-gray */
+    color: #ffffff !important;
 }
 
-/* Top navigation bar */
+/* Style the top navigation bar */
 .wy-nav-top {
-    background-color: #1a73e8; /* Matching the link color */
+    background-color: #1a252f; /* Darker shade for better contrast */
 }
 
+/* Style the top navigation links: Default white, turns light gray on hover */
 .wy-nav-top a {
-    color: #ffffff;
+    color: white;
 }
 
 .wy-nav-top a:hover {
-    color: #d93025;
+    color: #b0b0b0;
 }
 
-/* Table headers */
+/* Style table headers inside responsive tables */
 .wy-table-responsive th {
-    background-color: #1a73e8;
-    color: #ffffff;
-}
-
-/* Code blocks */
-code {
-    background-color: #e8e8e8;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* Blockquotes */
-blockquote {
-    border-left: 4px solid #1a73e8;
-    padding-left: 15px;
-    color: #555;
-    font-style: italic;
-}
-
-/* Images */
-img {
-    border-radius: 8px; /* Rounded corners for images */
+    background-color: #222;
+    color: white;
+    border-bottom: 2px solid #444; /* Adds subtle separation */
 }
