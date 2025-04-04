@@ -1,6 +1,6 @@
 /* Set the background color and text color for the whole page */
 body {
-    background-color: #f5f5f5; /* Light gray for a softer contrast */
+    background-color: #ADD8E6; /* Light gray for a softer contrast */
     color: #222; /* Darker text for better readability */
     font-family: Verdana, sans-serif;
 }
@@ -48,7 +48,7 @@ a:hover {
 
 /* Style table headers inside responsive tables */
 .wy-table-responsive th {
-    background-color: #222;
-    color: white;
+    background-color: #ADD8E6;
+    color: black;
     border-bottom: 2px solid #444; /* Adds subtle separation */
 }
