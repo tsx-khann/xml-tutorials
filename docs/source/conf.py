@@ -2,8 +2,8 @@
 
 # -- Project Information -----------------------------------------------------
 
-project = 'XML Tutorial'
-author = 'Khan_32s'
+project = 'XML Tutorials'
+author = 'THE GREAT KHAN'
 copyright = '2021, xml'
 version = '0.1.0'
 release = '0.1'
@@ -38,7 +38,7 @@ html_theme_options = {
     "titles_only": False,          # Shows full titles instead of just headers
 }
 
-# Add custom CSS for light green and white theme
+# Add custom CSS 
 def setup(app):
     app.add_css_file('custom.css')
 
