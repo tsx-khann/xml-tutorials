@@ -1,49 +1,73 @@
 AGUSTINO LARA'S XML EXAMPLE
 ===========================
 
-EXAMPLE ABOUT:
---------------
-League Champion INFO
+What is XML example code about?:
+--------------------------------
+
+The XML example code provides structured data representation of **League of Legends champions**. It simulates how champion information might be stored or shared in a machine-readable format using XML. Each `<champion>` element contains detailed metadata such as:
+
+- **Name** and **Title** (what the champion is known as)
+- **Role** (their typical in-game function, e.g., Mage, Tank)
+- **Region** (the faction or area they originate from in the game's lore)
+- **Difficulty level** (how hard they are to play)
+- **Release date** and **Price** (representing availability and cost)
+- **Voice line** (signature quote that reflects their personality)
+- **Lore** (backstory that explains their motivation and history)
+
+This XML structure is ideal for developers, data parsers, or game databases who want to organize champion information in a way that can be easily processed or displayed on websites, mobile apps, or game companion tools.
+
 
 Viktor
 ------
 
 .. image:: https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg
-   :alt: Node Tree Image
+   :alt: Viktor Splash Art
    :width: 720px
    :align: center
+
 .. code-block:: xml
 
-  <?xml version="1.0" encoding="UTF-8"?>
-  <league>
-    <champion>
-      <name>Viktor Magtanggol</name>
-        <known_as> The Machine Herald </known_as>
-      <role>Mage</role>
-      <release_date>December 11, 2024</release_date>
-      <price>16000ES</price>
-      <voice_line><i>"Humanity can be so much more."</i></voice_line>
-    </champion>
-  </league>
+   <?xml version="1.0" encoding="UTF-8"?>
+   <league>
+     <champion id="Viktor">
+       <name>Viktor Magtanggol</name>
+       <title>The Machine Herald</title>
+       <role>Mage</role>
+       <region>Zaun</region>
+       <difficulty>Medium</difficulty>
+       <release_date>December 11, 2024</release_date>
+       <price currency="ES">4800</price>
+       <voice_line>"Humanity can be so much more."</voice_line>
+       <lore>
+         <b> Viktor is a visionary who dedicated his life to the advancement of humankind. Through technology, he aims to elevate society beyond its frail limitations.</b>
+         </lore>
+      </champion>
+   </league>
 
-Dr.Mundo
---------
+
+Dr. Mundo
+---------
 
 .. image:: https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-corporate-762x.jpg
-   :alt: Node Tree Image
+   :alt: Corporate Mundo
    :width: 720px
    :align: center
 
 .. code-block:: xml
-   
+
    <?xml version="1.0" encoding="UTF-8"?>
-     <league>
-       <champion>
-         <name>Dr.Mundo</name>
-           <known_as> The Madman of Zaun </known_as>
-         <role>Tank</role>
-         <release_date>September 2, 2009</release_date>
-         <price>3150ES</price>
-         <voice_line><i>"No worry. Me doctor!"</i></voice_line>
-       </champion>
-     </league>
+   <league>
+     <champion id="Dr.Mundo">
+       <name>Doctor "Mundo" Edmundo</name>
+       <Tank>The Madman of Zaun</Tank>
+       <role>Tank</role>
+       <region>Zaun</region>
+       <difficulty>Low</difficulty>
+       <release_date>September 2, 2009</release_date>
+       <price currency="ES">3150</price>
+       <voice_line>"No worry. Me doctor!"</voice_line>
+       <lore>
+         <b>Driven by his own twisted version of medicine, Dr. Mundo passively regenerates health and charges into enemies with reckless abandon.</b>
+       </lore>
+     </champion>
+   </league>
