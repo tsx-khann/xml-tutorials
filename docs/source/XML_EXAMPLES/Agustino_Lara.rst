@@ -31,12 +31,12 @@ Viktor
    <league>
      <champion id="Viktor">
        <name>Viktor Magtanggol</name>
-       <title>The Machine Herald</title>
+       <title>the Herald of the Arcane</title>
        <role>Mage</role>
        <region>Zaun</region>
        <difficulty>Medium</difficulty>
        <release_date>December 11, 2024</release_date>
-       <price currency="ES">4800</price>
+       <price currency="BE">4800</price>
        <voice_line>"Humanity can be so much more."</voice_line>
        <lore>
          <b> Viktor is a visionary who dedicated his life to the advancement of humankind. Through technology, he aims to elevate society beyond its frail limitations.</b>
@@ -65,11 +65,11 @@ Dr. Mundo
      <champion id="Dr.Mundo">
        <name>Doctor "Mundo" Edmundo</name>
        <title>The Madman of Zaun</title>
-       <role>Tank</role>
+       <role>Tank/Fighter</role>
        <region>Zaun</region>
-       <difficulty>Low</difficulty>
+       <difficulty>Medium</difficulty>
        <release_date>September 2, 2009</release_date>
-       <price currency="ES">3150</price>
+       <price currency="BE">3150</price>
        <voice_line>"No worry. Me doctor!"</voice_line>
        <lore>
          <b>Driven by his own twisted version of medicine, Dr. Mundo passively regenerates health and charges into enemies with reckless abandon.</b>
