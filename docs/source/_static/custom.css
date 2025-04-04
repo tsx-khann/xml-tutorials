@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-    color: #800080;
+    color: lightblue;
     text-decoration: underline;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .wy-nav-top a:hover {
-    color: #800080; /* purbple on hover */
+    color: lightblue; /* purbple on hover */
 }
 
 /* Table headers */
