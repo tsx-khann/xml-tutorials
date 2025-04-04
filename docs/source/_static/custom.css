@@ -1,8 +1,8 @@
 /* Set the background color and text color for the whole page */
 body {
-    background-color: #ADD8E6; /* Light gray for a softer contrast */
+    background-color: #ADD8E6; /* Light blue for homepage */
     color: #222; /* Darker text for better readability */
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
 }
 
 /* Style links: Default blue, turns a softer green on hover */
@@ -24,7 +24,7 @@ a:hover {
 /* Styling when the folder (or section) is clicked and expanded */
 .wy-menu-vertical .current {
     background-color: #003366; /* Dark blue when section is active */
-    color: white; /* White text for the active section */
+    color: #ADD8E6; /* Light blue text for the active section */
 }
 
 /* Hover effect for the links/folders */
