@@ -2,7 +2,7 @@ XML DEV EXAMPLES
 =================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: DEVELOPERS
 
    Agustino_Lara
