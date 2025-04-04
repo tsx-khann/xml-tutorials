@@ -6,12 +6,12 @@ body {
 }
 /* Style links: Default blue, turns a softer green on hover */
 a {
-    color: #0077cc;
-    text-decoration: none;
+    color: purple;            
+    text-decoration: none;  
 }
 
 a:hover {
-    color: lightblue;
+    color: blue;         
     text-decoration: underline;
 }
 
