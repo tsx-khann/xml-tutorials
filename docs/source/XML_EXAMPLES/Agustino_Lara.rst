@@ -59,7 +59,7 @@ Dr. Mundo
    <league>
      <champion id="Dr.Mundo">
        <name>Doctor "Mundo" Edmundo</name>
-       <Tank>The Madman of Zaun</Tank>
+       <title>The Madman of Zaun</title>
        <role>Tank</role>
        <region>Zaun</region>
        <difficulty>Low</difficulty>
