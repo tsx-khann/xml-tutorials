@@ -14,7 +14,7 @@ The XML example code provides structured data representation of **League of Lege
 - **Voice line** (signature quote that reflects their personality)
 - **Lore** (backstory that explains their motivation and history)
 
-This XML structure is ideal for developers, data parsers, or game databases who want to organize champion information in a way that can be easily processed or displayed on websites, mobile apps, or game companion tools.
+This XML structure is ideal for developers, data parsers, or game databases who want to organize character information in a way that can be easily processed or displayed on websites, mobile apps, or game companion tools.
 
 
 Viktor
@@ -44,11 +44,16 @@ Viktor
       </champion>
    </league>
 
+**REFERENCE**: https://www.leagueoflegends.com/en-ph/champions/viktor/
+
+
+------
+
 
 Dr. Mundo
 ---------
 
-.. image:: https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-corporate-762x.jpg
+.. image:: https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg
    :alt: Corporate Mundo
    :width: 720px
    :align: center
@@ -71,3 +76,5 @@ Dr. Mundo
        </lore>
      </champion>
    </league>
+
+**REFERENCE**: https://www.leagueoflegends.com/en-ph/champions/drmundo/
