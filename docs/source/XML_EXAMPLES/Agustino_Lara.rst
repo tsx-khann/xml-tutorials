@@ -6,7 +6,7 @@ EXAMPLE ABOUT:
 League Champion INFO
 
 Viktor
-=========================
+------
 
 .. image:: https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_0.jpg
    :alt: Node Tree Image
@@ -27,7 +27,7 @@ Viktor
   </league>
 
 Dr.Mundo
-=========================
+--------
 
 .. image:: https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-corporate-762x.jpg
    :alt: Node Tree Image
