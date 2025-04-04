@@ -34,7 +34,7 @@ Viktor
        <title>the Herald of the Arcane</title>
        <role>Mage</role>
        <region>Zaun</region>
-       <difficulty>Medium</difficulty>
+       <difficulty>Hard</difficulty>
        <release_date>December 11, 2024</release_date>
        <price currency="BE">4800</price>
        <voice_line>"Humanity can be so much more."</voice_line>
