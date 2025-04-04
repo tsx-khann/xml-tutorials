@@ -11,18 +11,18 @@ a {
 }
 
 a:hover {
-    color: green;
+    color: #800080;
     text-decoration: underline;
 }
 
 /* Style the side navigation search bar and side navigation panel */
 .wy-side-nav-search, .wy-nav-side {
-    background-color: #2c3e50; /* Dark blue-gray for a modern look */
+    background-color: #1a252f; /* Dark blue-gray for a modern look */
 }
 
 /* Styling when the folder (or section) is clicked and expanded */
 .wy-menu-vertical .current {
-    background-color: #003366; /* Dark blue when section is active */
+    background-color: #1a252f; /* Dark blue when section is active */
     color: #ADD8E6; /* Light blue text for the active section */
 }
 
@@ -44,12 +44,12 @@ a:hover {
 }
 
 .wy-nav-top a:hover {
-    color: #800080; /* Light blue on hover */
+    color: #800080; /* purbple on hover */
 }
 
 /* Table headers */
 .wy-table-responsive th {
-    background-color: #2c3e50; /* Dark blue header */
+    background-color:  #1a252f; /* Dark blue header */
     color: #ffffff; /* White text for the header */
 }
 
@@ -65,6 +65,6 @@ code {
 blockquote {
     border-left: 4px solid #003366;
     padding-left: 15px;
-    color: #e0e0e0;
-    background-color: #2c3e50;
+    color: white;
+    background-color: #003366;
 }
