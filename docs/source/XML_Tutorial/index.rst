@@ -2,7 +2,7 @@ XML Tutorial
 ============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    XML_HOME
    XML_Introduction
