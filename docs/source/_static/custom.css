@@ -22,7 +22,7 @@ a:hover {
 /* Styling when the folder (or section) is clicked and expanded */
 .wy-menu-vertical .current {
     background-color: #1a252f; /* Dark blue when section is active */
-    color: #ffffff; 
+    color: lightblue; 
 }
 
 /* Hover effect for the links/folders */
