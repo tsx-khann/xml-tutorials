@@ -1,4 +1,4 @@
-XML DEV EXAMPLES
+XML EXAMPLES
 =================
 
 .. toctree::
