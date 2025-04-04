@@ -39,11 +39,11 @@ a:hover {
 
 /* Style the top navigation links: Default white, turns light gray on hover */
 .wy-nav-top a {
-    color: white;
+    color: #003366;
 }
 
 .wy-nav-top a:hover {
-    color: #b0b0b0;
+    color: #005fa3;
 }
 
 /* Style table headers inside responsive tables */
