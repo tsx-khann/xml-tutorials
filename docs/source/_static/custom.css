@@ -1,8 +1,13 @@
 /* Set the background color and text color for the whole page */
 body {
-    background-color: #ADD8E6; /* Light blue for homepage */
+    background-color: #ADD8E6; /* Light blue for overall background */
     color: #222; /* Darker text for better readability */
     font-family: Verdana;
+}
+
+/* Ensure main content background is also light blue */
+.wy-nav-content {
+    background-color: #ADD8E6; /* Light blue for the main content area */
 }
 
 /* Style links: Default blue, turns a softer green on hover */
@@ -37,13 +42,13 @@ a:hover {
     background-color: #1a252f; /* Darker shade for better contrast */
 }
 
-/* Style the top navigation links: Default white, turns light gray on hover */
+/* Style the top navigation links: Default dark blue, turns lighter on hover */
 .wy-nav-top a {
     color: #003366;
 }
 
 .wy-nav-top a:hover {
-    color: #ADD8E6;
+    color: #005fa3;
 }
 
 /* Style table headers inside responsive tables */
