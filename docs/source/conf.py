@@ -36,7 +36,6 @@ html_theme_options = {
     "collapse_navigation": False,  # Expands the menu instead of collapsing
     "navigation_depth": 2,         # Allows deeper levels in navigation
     "titles_only": False,          # Shows full titles instead of just headers
-    "show_source": False,          # Disable the "View page source" option
 }
 
 
@@ -50,8 +49,3 @@ html_static_path = ['_static']
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = 'footnote'
-
-# -- Remove "View page source" from the sidebar ----------------------------
-html_sidebars = {
-    '**': ['globaltoc.html', 'searchbox.html'],  # Remove 'source.html' to prevent page source viewing
-}
