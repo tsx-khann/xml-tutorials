@@ -1,4 +1,4 @@
-AGUSTINO LARA'S XML EXAMPLE
+MIGUEL AGUSTINO LARA
 ===========================
 
 What is XML example code about?
