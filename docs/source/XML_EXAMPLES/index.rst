@@ -1,9 +1,10 @@
 XML EXAMPLES
 =================
 
+**DEVELOPERS:**
+
 .. toctree::
    :maxdepth: 1
-   :caption: DEVELOPERS
 
    Agustino_Lara
    Daisy_Apurado
