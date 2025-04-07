@@ -14,8 +14,8 @@ CONTENT
 
 .. toctree::
    :maxdepth: 1
-   :caption: "TABLE OF CONTENT"
-   :hidden:
+   :caption: TABLE OF CONTENT
+   :no-caption:
 
    XML_Tutorial/index
    XML_AJAX/index
@@ -28,4 +28,3 @@ CONTENT
    XML_Data_Types/index
    Web_Services/index
    XML_EXAMPLES/index
-
