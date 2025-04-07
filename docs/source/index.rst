@@ -9,13 +9,11 @@ It is designed to help users understand how to create, parse, and utilize XML fo
 
    This project is under active development.
 
-CONTENT
 --------
 
 .. toctree::
    :maxdepth: 1
    :caption: TABLE OF CONTENT
-   :no-caption:
 
    XML_Tutorial/index
    XML_AJAX/index
