@@ -1,7 +1,8 @@
 XML EXAMPLES
 =================
 
-**DEVELOPERS:**
+DEVELOPERS:
+-----------
 
 .. toctree::
    :maxdepth: 1
