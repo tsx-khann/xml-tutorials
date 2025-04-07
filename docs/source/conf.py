@@ -36,7 +36,9 @@ html_theme_options = {
     "collapse_navigation": False,  # Expands the menu instead of collapsing
     "navigation_depth": 2,         # Allows deeper levels in navigation
     "titles_only": False,          # Shows full titles instead of just headers
+    "show_source": False,          # Disable the "View page source" option
 }
+
 
 # Add custom CSS 
 def setup(app):
