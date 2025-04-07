@@ -1,7 +1,9 @@
 XML EXAMPLES
 =================
 
-DEVELOPERS:
+   :caption:DEVELOPERS:
+
+
 -----------
 
 .. toctree::
