@@ -34,7 +34,7 @@ html_theme = "sphinx_rtd_theme"  # Use Read the Docs theme
 # Enable dropdown menus in the sidebar
 html_theme_options = {
     "collapse_navigation": False,  # Expands the menu instead of collapsing
-    "navigation_depth": 4,         # Allows deeper levels in navigation
+    "navigation_depth": 3,         # Allows deeper levels in navigation
     "titles_only": False,          # Shows full titles instead of just headers
 }
 
@@ -48,3 +48,8 @@ html_static_path = ['_static']
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = 'footnote'
+
+# -- Remove "View page source" from the sidebar ----------------------------
+html_sidebars = {
+    '**': ['globaltoc.html', 'searchbox.html'],  # Remove 'source.html' to prevent page source viewing
+}
