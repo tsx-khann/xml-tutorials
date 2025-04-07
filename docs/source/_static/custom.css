@@ -62,8 +62,8 @@ code {
 
 /* Blockquotes */
 blockquote {
-    border-left: 4px solid #003366;
+    border-left: 4px solid purple;
     padding-left: 15px;
     color: black;
-    background-color: purple;
+    background-color: white;
 }
