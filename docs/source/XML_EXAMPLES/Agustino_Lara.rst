@@ -1,8 +1,8 @@
 AGUSTINO LARA'S XML EXAMPLE
 ===========================
 
-What is XML example code about?:
---------------------------------
+What is XML example code about?
+-------------------------------
 
 The XML example code provides structured data representation of **League of Legends champions**. It simulates how champion information might be stored or shared in a machine-readable format using XML. Each `<champion>` element contains detailed metadata such as:
 
