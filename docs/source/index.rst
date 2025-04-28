@@ -26,3 +26,4 @@ It is designed to help users understand how to create, parse, and utilize XML fo
    XML_Data_Types/index
    Web_Services/index
    XML_EXAMPLES/index
+   folder1/index
